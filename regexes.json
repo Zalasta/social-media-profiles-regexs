@@ -419,7 +419,7 @@
     },
     "user": {
       "note": "Allowed for usernames are alphanumeric characters and underscores.",
-      "regex": "(?:https?:)?\\/\\/(?:[A-z]+\\.)?twitter\\.com\\/@?(?!home|share|privacy|tos)(?P<username>[A-z0-9_]+)\\/?",
+      "regex": "(?:https?:)?\\/\\/(?:[A-z]+\\.)?twitter\\.com\\/@?(?!home|share|privacy|tos|intent)(?P<username>[A-z0-9_]+)\\/?",
       "tests": {
         "htt://twitter.com/karllorey": null,
         "http://twitter.com/@karllorey": {
